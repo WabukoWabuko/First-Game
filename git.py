@@ -1,5 +1,5 @@
 #!/usr/bin/python2.7
-"""Blank Python 2.7 file"""
+
 maxhp = int(50)
 hp = int(50)
 import random
@@ -139,25 +139,7 @@ elif Action == "magic":
         else:
             print ("your health is already full") 
 
-"""
-'Blank Python 2.7 file'
-import re
-s=input()
-print(bool(re.match(r'^[0-9][\d]{5}$',s) and len(re.findall(r'(\d)(?=\d\1)', s))<2))
-"""
 
-"""
-"Blank Python 2.7 file"
-import re
-email=input()
-regex=r"\D+"
-if(re.search(regex, email)):
-  print('valid')
-else:
-  print('invalid')"""
-
-
-"Blank Python 2.7 file"
 from tkinter import *
 from time import strftime
 
